@@ -108,7 +108,7 @@ background: var(--content-background);
         --content-font-size:17px;
     }
     #opening-fig{
-        padding: 12vh 10vw;
+        padding: 5vh 10vw 10vh 10vw;
     }
 
     header{
@@ -119,6 +119,15 @@ background: var(--content-background);
         padding-top: 7vh;
         margin-left: -10vw;
         margin-right: -10vw;
+    }
+    #intro{
+        height: 50%;
+        min-height: 20vh;
+        width: 98.9vw;
+        padding: 5vh 10vw;
+        background-image: var(--intro-background);
+        color: var(--intro-color);
+        position: relative;
     }
 }
 @media screen and (max-width: 430px){
